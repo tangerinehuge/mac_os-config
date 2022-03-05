@@ -2,5 +2,5 @@
 
 # Installs Rust crates.
 
-cargo install jless
-cargo install silicon
+# cargo install jless
+# cargo install silicon

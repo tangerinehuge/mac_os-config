@@ -2,7 +2,7 @@
 
 # Installs Node packages.
 
-npm install --global elm-analyse
-npm install --global elm-live
-npm install --global elm-test
-npm install --global webpack
+# npm install --global elm-analyse
+# npm install --global elm-live
+# npm install --global elm-test
+# npm install --global webpack
