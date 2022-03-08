@@ -65,6 +65,7 @@ brew install procs # ps replacement
 # brew install ranger # file browser
 # brew install readline # prog library
 # brew install reattach-to-user-namespace # Reattach process (e.g., tmux) to background
+brew install rectangle # window manager
 # brew install redis
 brew install ripgrep # Search tool like grep and The Silver Searcher
 brew install shellcheck # ba(sh) linter
