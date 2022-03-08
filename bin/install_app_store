@@ -3,7 +3,7 @@
 # Installs App Store software.
 
 # 1Password
-mas install 443987910
+mas install 1333542190
 
 # Acorn
 #mas install 1547371478
@@ -16,6 +16,9 @@ mas install 443987910
 
 # DaisyDisk
 #mas install 411643860
+
+# Fantastical
+mas install 975937182
 
 # GarageBand
 #mas install 682658836
