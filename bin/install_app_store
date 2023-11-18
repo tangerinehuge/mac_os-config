@@ -3,7 +3,7 @@
 # Installs App Store software.
 
 # 1Password
-mas install 1333542190
+#mas install 1333542190
 
 # Acorn
 #mas install 1547371478
@@ -12,7 +12,7 @@ mas install 1333542190
 #mas install 1352778147
 
 # CCMenu
-mas install 603117688
+#mas install 603117688
 
 # DaisyDisk
 #mas install 411643860
