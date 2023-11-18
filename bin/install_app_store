@@ -8,11 +8,11 @@ mas install 1333542190
 # Acorn
 #mas install 1547371478
 
-# AquaPath
-#mas install 424425207
+# Bitwarden
+#mas install 1352778147
 
-# Cocoa JSON Editor
-#mas install 442160773
+# CCMenu
+mas install 603117688
 
 # DaisyDisk
 #mas install 411643860
@@ -29,9 +29,6 @@ mas install 975937182
 # iMovie
 #mas install 408981434
 
-# Kaleidoscope
-# mas install 587512244
-
 # Key Codes
 # mas install 414568915
 
@@ -42,7 +39,7 @@ mas install 975937182
 # mas install 409183694
 
 # Kindle
-# mas install 405399194
+#mas install 302584613
 
 # Leech
 # mas install 1101735327
@@ -54,16 +51,16 @@ mas install 975937182
 # mas install 890031187
 
 # Medis
-# mas install 1063631769
+# mas install 1579200037
 
 # Meeter
 # mas install 1510445899
 
+# Metadatics
+mas install 554883654
+
 # MindNode
 # mas install 1289197285
-
-# MoneyWell
-# mas install 404246493
 
 # Moom
 mas install 419330170
@@ -105,7 +102,7 @@ mas install 419330170
 # mas install 496437906
 
 # Slack
-mas install 803453959
+# mas install 803453959
 
 # WiFi Explorer
 # mas install 494803304

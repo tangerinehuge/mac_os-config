@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
-ruby File.read(".ruby-version").strip
+ruby file: ".ruby-version"
 
 source "https://rubygems.org"
 
-gem "caliber", "~> 0.2"
-gem "git-lint", "~> 3.2"
+gem "caliber", "~> 0.42"
+gem "debug", "~> 1.8"
+gem "git-lint", "~> 6.0"
 gem "rake", "~> 13.0"

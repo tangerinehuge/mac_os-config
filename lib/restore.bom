@@ -27,6 +27,9 @@
 # Apple Control Center
 /Users/bkuhlmann/Library/Preferences/com.apple.controlcenter.plist
 
+# Apple Dock
+/Users/bkuhlmann/Library/Preferences/com.apple.dock.plist
+
 # Apple FaceTime
 /Users/bkuhlmann/Library/Preferences/com.apple.facetime.bag.plist
 /Users/bkuhlmann/Library/Preferences/com.apple.FaceTime.plist
@@ -69,15 +72,15 @@
 # Carbon Copy Cloner
 /Users/bkuhlmann/Library/Preferences/com.bombich.ccc.plist
 
-# ClipGrab
-/Users/bkuhlmann/Library/Preferences/de.clipgrab.ClipGrab.plist
-
 # CleanShot
 /Users/bkuhlmann/Library/Preferences/pl.maketheweb.cleanshotx.plist
 
 # Dash
 /Users/bkuhlmann/Library/Application Support/Dash
 /Users/bkuhlmann/Library/Preferences/com.kapeli.dashdoc.plist
+
+# DiffusionBee
+/Users/bkuhlmann/Library/Preferences/com.linerai.liner.plist
 
 # Discord
 /Users/bkuhlmann/Library/Preferences/com.hnc.Discord.plist
@@ -93,9 +96,6 @@
 
 # Fission
 /Users/bkuhlmann/Library/Preferences/com.rogueamoeba.Fission.plist
-
-# Ghostlab
-/Users/bkuhlmann/Library/Preferences/com.vanamco.Ghostlab3.www.plist
 
 # Google Chrome
 /Users/bkuhlmann/Library/Preferences/com.google.Chrome.plist
@@ -179,10 +179,6 @@
 # Sonos
 /Users/bkuhlmann/Library/Preferences/com.sonos.macController.plist
 
-# Spotify
-/Users/bkuhlmann/Library/Preferences/com.spotify.client.helper.plist
-/Users/bkuhlmann/Library/Preferences/com.spotify.client.plist
-
 # Transmit
 /Users/bkuhlmann/Library/Preferences/com.panic.Transmit.plist
 
@@ -200,8 +196,27 @@
 
 # USER
 /Users/bkuhlmann/.asciinema
-/Users/bkuhlmann/.cache
-/Users/bkuhlmann/.config
+/Users/bkuhlmann/.cache/psql
+/Users/bkuhlmann/.cache/ruby
+/Users/bkuhlmann/.cache/zoxide
+/Users/bkuhlmann/.config/archiver
+/Users/bkuhlmann/.config/asciinema
+/Users/bkuhlmann/.config/bash
+/Users/bkuhlmann/.config/bundler
+/Users/bkuhlmann/.config/duti
+/Users/bkuhlmann/.config/gemsmith
+/Users/bkuhlmann/.config/git
+/Users/bkuhlmann/.config/htop
+/Users/bkuhlmann/.config/iterm2
+/Users/bkuhlmann/.config/lnav
+/Users/bkuhlmann/.config/pennyworth
+/Users/bkuhlmann/.config/pgcli
+/Users/bkuhlmann/.config/pragmater
+/Users/bkuhlmann/.config/rubocop
+/Users/bkuhlmann/.config/rubysmith
+/Users/bkuhlmann/.config/sublime_text_kit
+/Users/bkuhlmann/.diffusionbee/data.json
+/Users/bkuhlmann/.diffusionbee/images
 /Users/bkuhlmann/.gem/credentials
 /Users/bkuhlmann/.gem/gem-private_key.pem
 /Users/bkuhlmann/.gem/gem-public_cert.pem
@@ -212,7 +227,6 @@
 /Users/bkuhlmann/.pgadmin
 /Users/bkuhlmann/.siege
 /Users/bkuhlmann/.ssh
-/Users/bkuhlmann/.ssl
 /Users/bkuhlmann/.vscode
 /Users/bkuhlmann/Apps
 /Users/bkuhlmann/Desktop
