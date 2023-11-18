@@ -2,80 +2,87 @@
 
 # Installs Homebrew software.
 
-brew install asciinema
+# brew install asciinema
 brew install bash
 brew install bash-completion
 brew install bat
 brew install blueutil
 brew install cloudflared
-brew install croc
-brew install crystal
-brew install ctags
+# brew install croc
+# brew install crystal
+# brew install ctags
 brew install direnv
-brew install dive
-brew install dog
-brew install duf
-brew install duti
-brew install exa
-brew install exiftool
-brew install fd
-brew install fnm
-brew install frum
-brew install fzf
+# brew install dive  # Docker explorer: https://github.com/wagoodman/dive
+brew install dog    # Better DNS util: https://dns.lookup.dog/
+brew install duf    # Better df: https://github.com/muesli/duf
+# brew install duti  # Select default apps for documents and URL schemes
+brew install entr    # run on file change: https://eradman.com/entrproject
+brew install exa       # improved LS: https://the.exa.website
+brew install exiftool  # metadata editor: https://exiftool.org/#running
+brew install fd   # improved find: https://github.com/sharkdp/fd
+brew install flac # FLAC file support
+# brew install fnm  # Fast and simple Node.js version manager
+# brew install frum  # Fast and modern Ruby version manager
+brew install fzf   # CLI fuzzy finder: https://github.com/junegunn/fzf
 brew install git
-brew install git-delta
-brew install git-filter-repo
-brew install git-sizer
+brew install git-delta # git diff: https://github.com/dandavison/delta
+# brew install git-filter-repo
+# brew install git-sizer  # rewrite repo history
 brew install gpg
-brew install gping
-brew install graphicsmagick
-brew install graphviz
-brew install hexyl
-brew install highlight
-brew install hr
-brew install htmlq
-brew install htop
-brew install httpie
-brew install httpstat
-brew install hyperfine
-brew install ioping
-brew install jq
-brew install lnav
-brew install lynis
+brew install gping   # ping with a graph: https://github.com/orf/gping
+brew install graphicsmagick # image manip prog: http://www.graphicsmagick.org
+# brew install graphviz  # graphing: https://graphviz.org/gallery/
+# brew install hexyl  # CLI hex viewer: https://github.com/sharkdp/hexyl
+# brew install highlight # source code highlighter: https://formulae.brew.sh/formula/highlight
+brew install hr  # horizontal rule in terminal: https://formulae.brew.sh/formula/hr#default
+# brew install htmlq # get info from html using css selectors
+brew install htop # better top
+brew install httpie # CLI HTTP API tester: https://httpie.io/cli
+# brew install httpstat # curl stats
+# brew install hyperfine # benchmark tool
+# brew install ioping # Tool to monitor I/O latency in real time
+# brew install jq # Lightweight and flexible command-line JSON processor
+brew install lnav # log analyzer
+brew install lynis # security hardener: https://cisofy.com/lynis/
 brew install mas
-brew install minisign
-brew install mitmproxy
-brew install ncdu
-brew install noti
-brew install nushell
-brew install oha
+# brew install minisign # Sign files & verify signatures.
+brew install mitmproxy # Intercept, modify, replay, save HTTP/S traffic
+brew install ncdu # disk usage viewer
+# brew install node # node version mgr
+brew install noti # Trigger notifications when a process completes
+# brew install nushell # alternate shell
+# brew install oha # http load generator
 brew install openssh
 brew install openssl
-brew install overmind
-brew install pandoc
-brew install parallel
-brew install pastel
-brew install pgcli
-brew install pigz
-brew install pinentry-mac
-brew install postgresql
-brew install procs
-brew install readline
-brew install redis
-brew install ripgrep
-brew install shellcheck
-brew install siege
-brew install tarsnap
-brew install tealdeer
+# brew install overmind # process manager
+brew install pandoc # a universal document converter
+brew install parallel # Shell command parallelization utility
+# brew install pastel # color util
+# brew install pgcli # postgres util
+brew install pigz # parallel gzip
+# brew install pinentry-mac # gpg pin entry tool
+# brew install postgresql
+brew install procs # ps replacement
+# brew install ranger # file browser
+# brew install readline # prog library
+# brew install reattach-to-user-namespace # Reattach process (e.g., tmux) to background
+brew install rectangle # window manager
+# brew install redis
+brew install ripgrep # Search tool like grep and The Silver Searcher
+brew install shellcheck # ba(sh) linter
+# brew install siege # http regression / benchmark tool
+brew install sleepwatcher # mac sleep utility
+# brew install sox # sound file translator
+# brew install tarsnap # online backup tool
+brew install tealdeer # process info
 brew install terraform
 brew install the_silver_searcher
-brew install tmux
-brew install tokei
-brew install viddy
+# brew install tmux
+# brew install tokei # code counter
 brew install vim
 brew install watch
-brew install websocat
-brew install xsv
-brew install yank
-brew install ykman
-brew install zoxide
+brew install websocat # Command-line client for WebSockets
+brew install xsv # CSV toolkit
+brew install yank # copy util
+# brew install ykman # yubikey manager
+brew install zoxide # cd replacement

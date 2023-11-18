@@ -46,7 +46,7 @@ printf "%s\n" "System - Automatically restart if system freezes."
 systemsetup -setrestartfreeze on
 
 printf "%s\n" "System - Disable software updates."
-sudo softwareupdate --schedule off
+# sudo softwareupdate --schedule off
 
 printf "%s\n" "Keyboard - Automatically illuminate built-in MacBook keyboard in low light."
 defaults write com.apple.BezelServices kDim -bool true
@@ -61,7 +61,7 @@ printf "%s\n" "Keyboard - Set a fast keyboard repeat rate."
 defaults write NSGlobalDomain KeyRepeat -int 0
 
 printf "%s\n" "Keyboard - Disable press-and-hold for keys in favor of key repeat."
-defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 printf "%s\n" "Trackpad - Map bottom right corner to right-click."
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
@@ -141,8 +141,8 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 printf "%s\n" "Finder - Allow text selection in Quick Look."
 defaults write com.apple.finder QLEnableTextSelection -bool true
 
-printf "%s\n" "iOS Simulator - Symlink the iOS Simulator application."
-sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
+# printf "%s\n" "iOS Simulator - Symlink the iOS Simulator application."
+# sudo ln -sf "/Applications/Xcode.app/Contents/Applications/iPhone Simulator.app" "/Applications/iOS Simulator.app"
 
 printf "%s\n" "Safari - Set home page to 'about:blank' for faster loading."
 defaults write com.apple.Safari HomePage -string "about:blank"
