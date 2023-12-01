@@ -60,14 +60,14 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 printf "%s\n" "Keyboard - Set a fast keyboard repeat rate."
 defaults write NSGlobalDomain KeyRepeat -int 0
 
-printf "%s\n" "Keyboard - Disable press-and-hold for keys in favor of key repeat."
-# defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+#printf "%s\n" "Keyboard - Disable press-and-hold for keys in favor of key repeat."
+#defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
-printf "%s\n" "Trackpad - Map bottom right corner to right-click."
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
+#printf "%s\n" "Trackpad - Map bottom right corner to right-click."
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCornerSecondaryClick -int 2
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+#defaults -currentHost write NSGlobalDomain com.apple.trackpad.trackpadCornerClickBehavior -int 1
+#defaults -currentHost write NSGlobalDomain com.apple.trackpad.enableSecondaryClick -bool true
 
 printf "%s\n" "Trackpad - Enable tap to click for current user and the login screen."
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
